@@ -98,4 +98,13 @@ switch ($_POST['band3']) {
 
 
 echo $band1.$band2.$band3."&#8486;";
+
+
+class Test extends PHPUnit_Framework_TestCase
+{
+	public function testOnePlusOne() {
+		$this->assertEquals(1+1,2);
+  	}
+}
+
 ?>
